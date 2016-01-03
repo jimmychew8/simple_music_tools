@@ -13,7 +13,6 @@ def bars_needed(n_bars, beats_bar, beats_minute):
 	return seconds
 
 
-
 if __name__ == '__main__':
 
 
