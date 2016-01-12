@@ -1,7 +1,4 @@
-"""Takes in n command line arguments. Each integer represents 
-the number of counts in a cycle. Prints simulation. Last argument 
-specifies bar length. 
-
+"""
 Sample run:
 
   rhythm_cycle_simulator.py 5 7 9 4
@@ -12,6 +9,10 @@ Sample run:
 
 A cycle of 5 counts on the first line, a cycle of 7 counts on the second,
 a cycle of 9 counts on the third, in a bar lenght of 4 counts.
+
+Takes in n command line arguments. Each integer represents 
+the number of counts in a cycle. Last argument specifies bar length. 
+Prints simulation.
 
 """
 
@@ -53,8 +54,7 @@ def main():
 			pass
 
 		else:
-
-
+			
 			print cycle(int(sys.argv[i]), bar_length)
 
 
