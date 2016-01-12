@@ -14,5 +14,5 @@ I'll be adding some very simple 'calculator' type programs to help out with musi
 |X---|---X|----|--X-|----|-X--|----|X---|---X|----|--X-|----|-X--|--
 |X---|----|-X--|----|--X-|----|---X|----|----|X---|----|-X--|----|--
 
-A cycle of 5 is displayed on the first line, a cycle of 7 on the second, a cycle of 9 on the third line in a 
-bar structure of 4 counts. 
+(Not sure if the line spacing shows up right on github)
+
