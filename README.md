@@ -14,5 +14,4 @@ I'll be adding some very simple 'calculator' type programs to help out with musi
 |X---|---X|----|--X-|----|-X--|----|X---|---X|----|--X-|----|-X--|--
 |X---|----|-X--|----|--X-|----|---X|----|----|X---|----|-X--|----|--
 
-(Not sure if the line spacing shows up right on github)
 
