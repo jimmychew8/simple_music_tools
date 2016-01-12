@@ -1,4 +1,10 @@
-"""Simple patch that gives you the number of seconds of music you have written given the tempo and time signature."""
+"""Simple patch that gives you the number of seconds of music you have written given the tempo and time signature.
+
+  sample run:
+  
+  python bars_to_time.py 16 4 60
+  
+  64.00000000000000000000000002"""
 
 import sys
 from decimal import *
