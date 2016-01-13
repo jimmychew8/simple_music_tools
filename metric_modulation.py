@@ -19,7 +19,6 @@ The arguments should be given in the order as follows:
 	number of new subdivions
 
 *****
-Arithmetic
 
 beats per minute (bpm)
 t0 = previous bpm
