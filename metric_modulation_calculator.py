@@ -1,5 +1,6 @@
 """
-A metric modulation scheme. 
+A metric modulation calculator. Given the starting and ending tempo, gives you 
+ways to use metric modulations to arrive at the ending tempo.
 
 Takes in the following as arguments in order as follows:
 
