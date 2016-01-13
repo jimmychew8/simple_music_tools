@@ -38,11 +38,13 @@ import sys
 from decimal import *
 
 
-def modulate(previous_bpm, 
+def modulate(
+	previous_bpm, 
 	previous_subdivision, 
 	num_of_previous_subdivisions, 
 	new_subdivision, 
-	num_of_new_subdivisions):
+	num_of_new_subdivisions
+	):
 	"""Returns the new bpm (tempo) given the previous 
 	bpm. The previous and new subdivisions are intenger value 
 	specified as follows: 2=eight, 3=triplet, 
