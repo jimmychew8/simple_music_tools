@@ -5,7 +5,7 @@ sample run:
 
 python metric_modulation.py 60 3 2 5 2
 change: 1.666666666666666666666666667
-36.0
+new tempo: 36.0
 
 In the original tempo of 60 bpm, two of the triplet subdivision
 equal two of the quintuplet subdivision in the new tempo of 36 bpm.
@@ -62,7 +62,7 @@ def modulate(previous_bpm,
 def main():
 	"""Main program."""
 
-	print modulate(
+	print 'new tempo:', modulate(
 			int(sys.argv[1]), 
 			int(sys.argv[2]), 
 			int(sys.argv[3]), 
