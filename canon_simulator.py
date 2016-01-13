@@ -1,7 +1,15 @@
-"""Canon simulator.
+"""Simple musical canon simulator. Without transpositions.
+
 Takes in a following arguments in the order as follows:
-	string denoted a rhythmic scheme as argument ie. (X-X--X-X, etc)
-	number of counts in a bar.
+	1) string denoted a rhythmic scheme as argument and
+	2) number of counts in a bar.
+	
+The first argument is your canon. Here are examples of how you may represent
+the canon from the command line: purely rythmically, ie X--X-X--X--X, or 
+by pitch, ie EDCDEEEDDDEGG_EDCDEEEEDDEDCCCC. The second argument is your 
+barring structure. If you want your canon to be in 4/4, enter 4. For 5/4, 
+enter 5.
+
 """
 
 
