@@ -45,7 +45,7 @@ from decimal import *
 
 
 def generate_modulation(start_tempo, end_tempo, max_sub, max_dev):
-	"""Returns a tuple that meet the metric modulation criteria in
+	"""Yields a tuple that meet the metric modulation criteria in
 	the following form:
 		(previous subdivision, 
 		# previous subdivision, 
