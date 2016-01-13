@@ -6,7 +6,7 @@ Takes in a following arguments in the order as follows:
 	
 The first argument is your canon. Here are examples of how you may represent
 the canon from the command line: purely rythmically, ie X--X-X--X--X, or 
-by pitch, ie EDCDEEEDDDEGG_EDCDEEEEDDEDCCCC. The second argument is your 
+by pitch, ie EDCDEEEeDDDdEGG_EDCDEEEEDDEDCccc. The second argument is your 
 barring structure. If you want your canon to be in 4/4, enter 4. For 5/4, 
 enter 5.
 
