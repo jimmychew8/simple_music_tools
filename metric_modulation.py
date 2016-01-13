@@ -13,14 +13,12 @@ The new beat is 5/3 longer than the original.
 
 The arguments should be given in the order as follows:
 	previous tempo, 
-	previous subdivion,
+	previous subdivision,
 	number of previous subdivions, 
 	new subdivision,
-	number of new subdivions
+	number of new subdivisions
 
 *****
-Arithmetic
-
 beats per minute (bpm)
 t0 = previous bpm
 t1 = new bpm
