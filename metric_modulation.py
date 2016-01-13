@@ -45,10 +45,12 @@ def modulate(
 	new_subdivision, 
 	num_of_new_subdivisions
 	):
-	"""Returns the new bpm (tempo) given the previous 
+	"""
+	Returns the new bpm (tempo) given the previous 
 	bpm. The previous and new subdivisions are intenger value 
 	specified as follows: 2=eight, 3=triplet, 
-	4=sixteenth, 5=quintuplet, etc."""
+	4=sixteenth, 5=quintuplet, etc.
+	"""
 
 	change = (Decimal(num_of_previous_subdivisions) / Decimal(previous_subdivision) \
 		* (Decimal(new_subdivision) / Decimal(num_of_new_subdivisions)))
