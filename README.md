@@ -1,5 +1,5 @@
 # simple_music_tools
-I'll be adding some very simple 'calculator' type programs to help out with music composing in python 2.7.
+Some simple programs to help out with music calculations (python 2.7)
 
 1) Bar count tool
 2) Loop simulator tool
