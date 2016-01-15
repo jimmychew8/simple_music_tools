@@ -56,11 +56,9 @@ def combine_cycles(lists_of_cycles):
 
 	combined_c = ''
 
-
 	for i in combined_cycle:
 
 		combined_c += i
-
 
 	print 'Combined Cycle:'
 
