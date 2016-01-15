@@ -7,11 +7,11 @@ Here's an overview of the programs.
 
 2) Loop simulator tool
 
-3) Metric modulation tool (given metric modulation scheme returns new tempo)
+3) Metric modulation tool (given a metric modulation, calculates the new tempo in bpm's)
 
-4) Metric modulation calculator (given two tempo, returns possible modulation schemes)
+4) Metric modulation calculator (given two bpm's, returns possible modulation schemes)
 
-5) Canon simulator. (only does unisons, no transpositions)
+5) Canon simulator (for unison canons, no transpositions)
 
 6) Canon interval calculator.
 
