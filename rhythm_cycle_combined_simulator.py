@@ -1,4 +1,4 @@
-# Expends the previous rhythm cycle patch. 
+# Extends the previous rhythm cycle patch. 
 # Adds a combined cycle feature
 # that reveals the composite rhythm.
 
@@ -54,18 +54,15 @@ def combine_cycles(lists_of_cycles):
 
 				combined_cycle[i] = 'X'
 
-
 	combined_c = ''
 
 
 	for i in combined_cycle:
 
-
 		combined_c += i
 
 
 	print 'Combined Cycle:'
-
 
 	print combined_c
 
@@ -73,19 +70,17 @@ def combine_cycles(lists_of_cycles):
 	return None
 
 
-
 def main():
 
 	cycles = []
+
 
 	for i in range(num_concurrent_cycles):
 
 
 		if i == 0: # Get ride of first sys argument.
 
-
 			pass
-
 
 		else:
 
@@ -95,8 +90,6 @@ def main():
 
 			cycles.append(list(cycle(int(sys.argv[i]), bar_length)))
 
-
-
 	combine_cycles(cycles)
 
 
@@ -105,9 +98,7 @@ if __name__ == '__main__':
 
 	if len(sys.argv) < 2:
 
-
 		print 'Enter, counts per rhythmic cycle (as many as you want), barring structure.'
-
 
 	else:
 
