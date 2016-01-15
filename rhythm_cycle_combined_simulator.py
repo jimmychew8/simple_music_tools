@@ -1,4 +1,4 @@
-# Expends the previous rhythm cycle patch. 
+# Extends the previous rhythm cycle patch. 
 # Adds a combined cycle feature
 # that reveals the composite rhythm.
 
