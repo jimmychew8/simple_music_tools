@@ -1,5 +1,6 @@
+
 # A program that gives intervals in a canon.
-# The program prints horizontal intervals  between melodies.
+# The program prints horizontal intervals between melodies.
 
 
 import sys
@@ -65,7 +66,7 @@ def interval(melody, melody_2):
 			else:
 
 				# Multiple by -1 if you want to see intervals below.
-				interval = (abs(int(melody[i]) - int(melody_2[i])) + 1)
+				interval = abs(int(melody[i]) - int(melody_2[i])) + 1
 
 
 		yield interval
@@ -94,12 +95,9 @@ def main():
 			total_intervals += str(j)
 
 		print '-' * len(total_intervals)
-		
-		
+
+
 		print total_intervals
-
-
-		print ''
 
 
 if __name__ == '__main__':
