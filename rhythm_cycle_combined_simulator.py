@@ -74,7 +74,6 @@ def main():
 
 	cycles = []
 
-
 	for i in range(num_concurrent_cycles):
 
 
@@ -84,9 +83,7 @@ def main():
 
 		else:
 
-
 			print cycle(int(sys.argv[i]), bar_length)
-
 
 			cycles.append(list(cycle(int(sys.argv[i]), bar_length)))
 
