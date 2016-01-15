@@ -1,8 +1,6 @@
-# Extends the previous rhythm cycle patch. 
+# Expends the previous rhythm cycle patch. 
 # Adds a combined cycle feature
 # that reveals the composite rhythm.
-
-
 
 import sys
 
@@ -36,7 +34,7 @@ def cycle(count, bar_length, length_string=104):
 
 def combine_cycles(lists_of_cycles):
 	"""
-	Takes in a list of lists of all cycles and returns a 
+	Takes in a list of lists of all cycles and prints a 
 	cycle that indicates any instance when there was a hit
 	amongst the cycles.
 	"""
@@ -70,6 +68,9 @@ def combine_cycles(lists_of_cycles):
 
 
 	print combined_c
+
+
+	return None
 
 
 
